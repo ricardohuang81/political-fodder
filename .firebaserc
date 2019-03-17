@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "dems": "frontend-fodder",
+    "default": "frontend-fodder"
+  }
+}
