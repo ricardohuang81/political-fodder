@@ -30,7 +30,8 @@ p {
 }
 .main-content {
 	font-family: 'Courier New', Courier, monospace;	
-	color: #000;	
+	color: #000;
+	text-align: justify;
 }
 a {
 	text-decoration: none;
