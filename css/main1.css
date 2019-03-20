@@ -50,7 +50,6 @@ body {
 header select {
 	margin-top: 2.25em;
 	margin-right: 0.9em;
-	/* float: right; */
 }
 header select:hover {
 	cursor: grab;
@@ -82,10 +81,9 @@ h1 {
 	text-align: center;
 }
 .info-holder {
-	/* display: inline-block; */
 	float: left;
 	text-align: left;
-	margin-top: 3%;
+	margin-top: 2%;
 }
 h2 {
 	font-weight: 400;
