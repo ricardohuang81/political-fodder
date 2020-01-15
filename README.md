@@ -1,1 +1,1 @@
-# political-fodder
+# Class project static site with HTML, CSS, JavaScript, jQuery
