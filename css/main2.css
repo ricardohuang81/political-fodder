@@ -86,7 +86,7 @@ header .logo {
 			rgba(0, 0, 0, .48),
 			rgba(0, 0, 0, .48)
 		),
-		url('../img/democrats_banner.jpg') no-repeat 60% center;
+		url('../img/bernie_banner.jpg') no-repeat 60% center;
 	background-size: cover;
 }
 .hero p {
@@ -100,6 +100,7 @@ header .logo {
 main {
 	box-sizing: border-box;
 	padding: 30px 0;
+	text-align: center;
 }
 #press-quote {
 	color: blue;

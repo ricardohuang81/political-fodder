@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Them Dems</title>
+	<title>2020</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png"
+		href="img/birdie_icon.png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo|Open+Sans:300,400|Oswald:700">
 	<link rel="stylesheet" href="css/main2.css">
 	<link rel="stylesheet" href="css/main1.css">
@@ -12,15 +14,18 @@
 </head>
 <body>
 	<div class="content-wrapper">
-		<img 
-			style="height: 100px; opacity: 0.7; border: 2px solid gold;"
-			src="img/democrats.png" 
-			class="logo" 
-			alt="NAPS Logo"
-		>
+		<a href="https://www.dsausa.org/" target="_blank">
+			<img
+				style="height: 80px; width: 150px; margin: 0; padding: 0; opacity: 0.7; border: 2px solid gold;"
+				src="img/dsa.jpg"
+				class="logo"
+				alt="NAPS Logo"
+			>
+		</a>
 		<nav>
 			<ul>
 				<li><a href="https://democrats.org/" target="_blank">DNC</a></li>
+				<li><a href="https://voteforbernie.org/" target="_blank">Register</a></li>
 				<li><a href="https://democrats.org/press/" target="_blank">Press</a></li>
 				<li><a href="https://www.organizingcorps2020.com/" target="_blank">Contact</a></li>
 			</ul>
@@ -29,7 +34,7 @@
 
 	<div class="hero">
 		<h1>DEMOCRATIC NATIONAL COMMITTEE</h1>
-		<p>Giving you the 411 on the top 2020 Democratic Presidential Candidiates</p>
+		<p style="font-weight: bold;">Giving you the 411 on the top 2020 Democratic Presidential Candidiates</p>
 	</div>
 
 	<main role="main">
@@ -70,11 +75,11 @@
 			<div class="img-holder">
 				<div>
 					<img id="info-pic" src="img1/usa.png" alt="Blue States" width="260" height="260">
-					<p id="info-name">BLUE NATION</p>
+					<p id="info-name">BLUE WAVE</p>
 				</div>
 			</div>
 			<div class="info-holder">
-				<p><strong>Who: </strong><span id="info-who">BLUE NATION</span></p>
+				<p><strong>Who: </strong><span id="info-who">BLUE WAVE</span></p>
 				<p><strong>What: </strong><span id="info-what">2020 U.S. Presidential Election</span></p>
 				<p><strong>When: </strong><span id="info-when">Tuesday, November 3, 2020</span></p>
 				<p><strong>Where: </strong><span id="info-where">All 50 States, Duh!</span></p>
@@ -245,7 +250,7 @@
 	</div>
 </div>
 <footer>
-	<p>Made in Queens<br>Copyright © DNC 2020</p>
+	<p>Made in Queens, NYC<br>Copyright © DSA 2020</p>
 </footer>
 
 <script>
@@ -274,7 +279,7 @@
 			document.getElementById('from-year').selectedIndex = 0;
 			document.getElementById('to-year').selectedIndex = 0;
 			document.getElementById('validate').style.color = "orangered";
-			document.getElementById('validate').textContent = "Yes, you did it!";
+			document.getElementById('validate').textContent = "See, told you this would be better 😄";
 			window.scrollTo({
 				top: document.body.scrollHeight,
 				left: document.body.scrollHeight,
@@ -282,7 +287,7 @@
 			});
 			document.getElementById('gif').src = 'gif/aoc.gif';
 		} else {
-			document.getElementById('validate').textContent = "Fill the fields out with Gibberish if you'd like!";
+			document.getElementById('validate').textContent = "Fill all the fields out, then hit submit for a better GIF, otherwise you'll disappointed 😩";
 			window.scrollTo({
 				top: document.body.scrollHeight,
 				left: document.body.scrollHeight,
